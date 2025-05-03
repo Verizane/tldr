@@ -19,6 +19,10 @@
 
 `man {{[-f|--whatis]}} {{command}}`
 
+- Provide the manpage as standard output inside the console instead of the default reader:
+
+`man {{[-P cat|--pager=cat]}} "{{command}}"`
+
 - Display the path searched for manpages:
 
 `man {{[-w|--path]}}`
